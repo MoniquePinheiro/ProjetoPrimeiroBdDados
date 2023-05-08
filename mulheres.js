@@ -25,5 +25,4 @@ function mostraPorta() {
   console.log("Servirdor criado e rodando na porta", porta);
 }
 
-app.use(router.get('/mulheres', mostraMulheres))
 app.listen(porta, mostraPorta);
