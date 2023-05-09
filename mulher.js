@@ -1,9 +1,10 @@
-const express = require("express");
-const router = express.Router()
+const express = require("express");// usando no requerindo o express
+const router = express.Router()// usando const expresse + função configuração de rota
 
-const app = express();
+const app = express();// estou fazendo uma const para usar o app express
 const porta = 3333;
 
+//criação da lista inicial sobre mulher
 function mostraMulher(request, response) {
     response.json({
       Nome: "Monique de Jesus Pinheiro",
